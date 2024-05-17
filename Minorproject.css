@@ -1,0 +1,140 @@
+
+body, h2, h3, form, label, input, select, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5a33ac;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color:#D3A1A0;
+    
+}
+
+h3 {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#96904E;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #e62783;
+    padding:5px
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: border-bottom-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-bottom-color: #4CAF50;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="date"]:hover,
+select:hover {
+    border-bottom-color: #aaa;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.jaga{color:#96904e}
+.jaga1{color:#96904E}
+
+.img{background-image: url("https://www.shutterstock.com/image-photo/dj-mixing-outdoor-beach-party-600nw-670249444.jpg");
+    background-size: cover;
+    height: 270px;
+    width:600px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.tech{text-align: center;
+font-size: 20px solid;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: oblique;
+font-weight: bold;
+color:darkorange;
+margin-top: 3px;
+padding:5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    border:none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 25px solid;
+    font-weight: bold;
+}
+
+button[type="submit"] ::before,button[type="submit"] ::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #ea5965;
+    background:#5a33ac;
+    box-shadow: #e62783;
+    color:#d40f13;
+    
+    
+
+
+}
